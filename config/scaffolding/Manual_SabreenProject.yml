@@ -10,3 +10,6 @@ packages:
 - name: WmGoogleBigQueryProvider
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmGoogleCloudStorageProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
