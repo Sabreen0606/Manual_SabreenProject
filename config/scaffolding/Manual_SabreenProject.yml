@@ -7,3 +7,6 @@ packages:
 - name: WmGooglePubSubProvider
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmGoogleBigQueryProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
