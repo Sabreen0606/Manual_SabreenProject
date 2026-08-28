@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sabreen.Irfana@ibm.com</value>
-    <value name="lastModifiedDate">1787918639432</value>
+    <value name="lastModifiedDate">1787919094613</value>
     <value name="displayName">test1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,11 +71,11 @@
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">TestHTTP1</value>
+          <value name="connectionName">TestHTTP3</value>
           <value name="connectionType">http</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.manual_sabreen.http.connections:TestHTTP1</value>
+        <value name="connectionNSName">project.manual_sabreen.http.connections:TestHTTP3</value>
         <value name="connectionType">http</value>
         <value name="type">http</value>
         <value name="version">1</value>
