@@ -4,3 +4,6 @@ info:
 packages:
 - name: Manual_SabreenProject
   gitBranch: master
+- name: WmGooglePubSubProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
