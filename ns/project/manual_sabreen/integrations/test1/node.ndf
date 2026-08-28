@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Sabreen.Irfana@ibm.com</value>
-    <value name="createdDate">1787918232269</value>
-    <value name="lastModifiedDate">1787918232269</value>
+    <value name="lastModifiedBy">Sabreen.Irfana@ibm.com</value>
+    <value name="lastModifiedDate">1787918639432</value>
     <value name="displayName">test1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -108,6 +107,10 @@
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
