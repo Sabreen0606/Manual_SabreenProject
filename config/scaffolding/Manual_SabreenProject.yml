@@ -16,6 +16,9 @@ packages:
   version: 12.0.0.0.7
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: TechnologyConnector
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
 - serviceName: project.manual_sabreen.http.connections:TestHTTP1
   packages:
@@ -27,3 +30,17 @@ services:
     version: 12.0.0.0.10
   - name: WmGoogleCloudStorageProvider
     version: 12.0.0.0.7
+- serviceName: project.manual_sabreen.integrations:test1
+  packages:
+  - name: Manual_SabreenProject
+    version: "1.0"
+  - name: WmGooglePubSubProvider
+    version: 12.0.0.0.9
+  - name: WmGoogleBigQueryProvider
+    version: 12.0.0.0.10
+  - name: WmGoogleCloudStorageProvider
+    version: 12.0.0.0.7
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1033
