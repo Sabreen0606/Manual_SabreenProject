@@ -19,6 +19,11 @@ packages:
 - name: TechnologyConnector
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: Punith_KMAT_Salesforce_Sync
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
 services:
 - serviceName: project.manual_sabreen.http.connections:TestHTTP1
   packages:
