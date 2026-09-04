@@ -16,9 +16,6 @@ packages:
   version: 12.0.0.0.7
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
-- name: TechnologyConnector
-  wpmServer: https://packages.webmethods.io
-  wpmRegistry: licensed
 - name: Punith_KMAT_Salesforce_Sync
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
