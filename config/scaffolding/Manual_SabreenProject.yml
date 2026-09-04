@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: Manual_SabreenProject
-  gitBranch: master
+  gitServerName: Sabreen_p
+  gitUrl: https://github.com/Sabreen0606
+  gitUsername: Sabreen0606
+  gitBranch: main
 - name: WmGooglePubSubProvider
   version: 12.0.0.0.9
   wpmServer: https://packages.webmethods.io
