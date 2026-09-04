@@ -17,9 +17,9 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 - name: Punith_KMAT_Salesforce_Sync
-  gitServerName: Sabreen_shared
+  gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
-  gitUsername: Sabreen0606
+  gitUsername: karthikbm
   gitBranch: main
 services:
 - serviceName: project.manual_sabreen.http.connections:TestHTTP1
