@@ -20,12 +20,16 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 - name: Punith_KMAT_Salesforce_Sync
+  version: "1.0"
   gitServerName: Sabreen_shared
   gitUrl: https://github.com/karthikbm
   gitUsername: Sabreen0606
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
-- serviceName: project.manual_sabreen.http.connections:TestHTTP1
+- serviceName: project.manual_sabreen.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:TestSalesF1
   packages:
   - name: Manual_SabreenProject
     version: "1.0"
@@ -35,26 +39,10 @@ services:
     version: 12.0.0.0.10
   - name: WmGoogleCloudStorageProvider
     version: 12.0.0.0.7
-- serviceName: project.manual_sabreen.http.connections:TestHTTP2
-  packages:
-  - name: Manual_SabreenProject
+  - name: Punith_KMAT_Salesforce_Sync
     version: "1.0"
-  - name: WmGooglePubSubProvider
-    version: 12.0.0.0.9
-  - name: WmGoogleBigQueryProvider
-    version: 12.0.0.0.10
-  - name: WmGoogleCloudStorageProvider
-    version: 12.0.0.0.7
-- serviceName: project.manual_sabreen.http.connections:TestHTTP3
-  packages:
-  - name: Manual_SabreenProject
-    version: "1.0"
-  - name: WmGooglePubSubProvider
-    version: 12.0.0.0.9
-  - name: WmGoogleBigQueryProvider
-    version: 12.0.0.0.10
-  - name: WmGoogleCloudStorageProvider
-    version: 12.0.0.0.7
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: project.manual_sabreen.integrations:test1
   packages:
   - name: Manual_SabreenProject
@@ -65,6 +53,10 @@ services:
     version: 12.0.0.0.10
   - name: WmGoogleCloudStorageProvider
     version: 12.0.0.0.7
+  - name: Punith_KMAT_Salesforce_Sync
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
