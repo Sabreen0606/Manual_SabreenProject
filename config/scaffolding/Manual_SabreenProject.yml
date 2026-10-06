@@ -58,6 +58,20 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.23
+- serviceName: project.manual_sabreen.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:TestConn7
+  packages:
+  - name: Manual_SabreenProject
+    version: "1.0"
+  - name: WmGooglePubSubProvider
+    version: 12.0.0.0.9
+  - name: WmGoogleBigQueryProvider
+    version: 12.0.0.0.10
+  - name: WmGoogleCloudStorageProvider
+    version: 12.0.0.0.7
+  - name: Punith_KMAT_Salesforce_Sync
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: project.manual_sabreen.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:TestSalesF1
   packages:
   - name: Manual_SabreenProject
